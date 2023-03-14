@@ -2,6 +2,6 @@
 <html>
     <head></head>
     <body>
-        <h1>strona</h1>
+        <h1>strona1</h1>
     </body>
 </html>
