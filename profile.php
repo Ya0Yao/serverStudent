@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>Profil</head>
+    <head>Profil1</head>
     <body>
         <?php
             include('config.php');
