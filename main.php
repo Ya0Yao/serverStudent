@@ -10,11 +10,25 @@
     ?>
     <section name="główna">
         <div name="panel lewy">
-
+            <table>
+                <tr><td><a href="main.php">Menu:</a></td></tr>
+                <tr><td><a href="ciasta.php">Ciasta</a></td></tr>
+                <tr><td><a href="obiady.php">Obiady</a></td></tr>
+                <tr><td><a href="przekąski.php">Przekąski</a></td></tr>
+            </table>
         </div>
 
         <div name="panel górny prawy">
-
+            <table>
+                <tr><td><form action="search.php">
+                    <input type="text" placeholder = "Szukaj">
+                    <input type="submit" value="<img src='lupa.jpg' alt='Szukaj'>">
+                </form></td>
+                    <td><a href="info.php"></a>Informacje</td>
+                    <td><a href="profile.php"></a>Profil</td>
+                </tr>
+                
+            </table>
         </div>
 
         <div name="panel prawy duży">
@@ -29,3 +43,9 @@
     ?>
 </body>
 </html>
+
+
+<tr><td><a href="main.php">Men:</a></td></tr>
+<tr><td><iframe src="ciasta.php" height="200" width="300">Ciasta</iframe></td></tr>
+<tr><td><iframe src="obiady.php" height="200" width="300">Obiady</iframe></td></tr>
+<tr><td><iframe src="przekąski.php" height="200" width="300">Przekąski</iframe></td></tr>
