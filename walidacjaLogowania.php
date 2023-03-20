@@ -22,7 +22,7 @@
         if($selectAssoc != null){
 
             $passwordDATA = $selectAssoc['password'];
-            if($passwordDB ==$passwordDATA){
+            if($password ==$passwordDATA){
                 $_SESSION['timeStamp']=time();
                 $_SESSION['login'] = $login;
                 $_SESSION['password'] = $password;
