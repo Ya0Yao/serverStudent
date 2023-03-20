@@ -14,9 +14,27 @@
 }
 
 /*main*/
+.main{
+  background-color: #f4f9e2;
+}
+table{
+  font-size: xx-large;
+  border: px;
+  border-color: #ffffa8;
+  border-style: dashed;
+  border-collapse: collapse;
+}
+.tableserch{
+  margin-left: 50px;
+}
+.tablemenu{
+  text-align: center;
+  width: 50px;
 
+}
 
 /*slideshow*/
+
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
@@ -76,9 +94,4 @@
   @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
-  }
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
   }
