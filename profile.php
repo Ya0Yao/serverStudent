@@ -5,15 +5,15 @@
         <?php
             include('config.php');
             try{
-                $conn = mysqli_connect($servername, $username, $password, $database );
+                $conn = mysqli_connect($servername, $username, $passwordDB, $database );
                 echo "udało się połączyć";
                 $_SESSION['timeStamp']=time();
-                $loginDB = $_SESSION['loginDB'];
-                var_dump($loginDB);
-                $passwordDB = $_SESSION['passwordDB'];
-                var_dump($passwordDB);
+                $login = $_SESSION['login'];
+                var_dump($login);
+                $passwordDB = $_SESSION['password'];
+                var_dump($password);
 
-                 $selectQuery = "SELECT * FROM `danelogowania` WHERE login = '$loginDB'";
+                 $selectQuery = "SELECT * FROM `danelogowania` WHERE login = '$login'";
                 $selectDATA = mysqli_query($conn, $selectQuery);
                 $selectAssoc=mysqli_fetch_assoc($selectDATA);
                 var_dump($selectAssoc);
