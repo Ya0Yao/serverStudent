@@ -5,7 +5,7 @@
 </head>
 <body>
 <marquee  behavior="scroll" direction="right">        
-          <img src="podpis.jpg"alt="GeeksforGeeks logo"> 
+          <img src="podpis.jpg"alt="Stronę stworzyli: Łukasz Nyc i Kamil Machelak"> 
     </marquee>  
 </body>
 </html>
