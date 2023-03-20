@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <title>Logowanie</title>
+    <title>Logowanie2</title>
     <link rel="stylesheet" href="styl.css">
 </head>
 <body class="index">
