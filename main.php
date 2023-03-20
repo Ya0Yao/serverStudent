@@ -24,8 +24,8 @@
                     <input type="text" placeholder = "Szukaj">
                     <input type="submit" value="<img src='lupa.jpg' alt='Szukaj'>">
                 </form></td>
-                    <td><a href="info.php"></a>Informacje</td>
-                    <td><a href="profile.php"></a>Profil</td>
+                    <td><a href="info.php">Informacje</a></td>
+                    <td><a href="profile.php">Profil</a></td>
                 </tr>
                 
             </table>
