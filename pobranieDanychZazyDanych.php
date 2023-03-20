@@ -36,7 +36,7 @@ echo $passwordok;
 
 // walidacja
 
-$blad
+
 
 if($login != $loginok){
     $blad = "Wpisz poprawny login";
