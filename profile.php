@@ -10,7 +10,7 @@
                 $_SESSION['timeStamp']=time();
                 $login = $_SESSION['login'];
                 var_dump($login);
-                $passwordDB = $_SESSION['password'];
+                $password = $_SESSION['password'];
                 var_dump($password);
 
                  $selectQuery = "SELECT * FROM `danelogowania` WHERE login = '$login'";
