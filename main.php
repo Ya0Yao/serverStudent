@@ -9,34 +9,38 @@
         include_once("header.php")
     ?>
     <section name="główna">
-        <div name="panel lewy">
 
-        <div name="panel prawy górny">
-            <table>
-                <tr><td><form action="search.php">
-                            <input type="text" placeholder = "Szukaj">
-                            <input type="submit" value="<img src='lupa.jpg' alt='Szukaj'>">
-                        </form> 
-                    </td>
-                    <td>
-                        <a href="info.php">Informacje</a>
-                    </td>
-                    <td>
-                        <a href="profile.php">Profil</a>
-                    </td>
-                </tr>
-            </table>
+        <nav>
 
-            <table>
-                <tr><td><a href="main.php">Menu:</a></td></tr>
-                <tr><td><a href="ciasta.php">Ciasta</a></td></tr>
-                <tr><td><a href="obiady.php">Obiady</a></td></tr>
-                <tr><td><a href="przekąski.php">Przekąski</a></td></tr>
-            </table>
-        </div>
+            <ul class="ul">
+                <li class="li">
+                    <a href="main.php">Menu:</a>
+                </li>
+                <li class="li">
+                    <form action="index.php">
+                        <input type="text" placeholder = "Szukaj">
+                        <input type="image" src="lupa.jpg" width="20px" hight="15px" alt="Submit">
+                    </form> 
+                </li>
+                <li class="li">
+                    <a href="info.php">Informacje</a>
+                </li>
+                <li class="li">
+                    <a href="profile.php">Profil</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <nav class="menu">
+        <ul>
+           <li class="limenu"><a href="ciasta.php">Ciasta</a></li>
+           <li class="limenu"><a href="obiady.php">Obiady</a></li>
+           <li class="limenu"><a href="przekąski.php">Przekąski</a></li>
+        </ul>
+        </nav>
 
 
-        </div>
+       
 
         <div name="panel prawy duży">
             <?php

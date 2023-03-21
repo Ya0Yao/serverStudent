@@ -1,8 +1,9 @@
-/*formularz logowania*/
+/*formularz logowania-gotowe */
 .index{
     background-color: #5132DC;
     color: #BEDE4A;
     text-align: center;
+    font-size: xx-large;
 }
 .button{
     background-color: #FBFDF3;
@@ -17,29 +18,53 @@
 .main{
   background-color: #f4f9e2;
 }
-table{
-  font-size: xx-large;
-  border: px;
+.ul{
+  list-style-type: none;
+  display: inline-block;
+}
+.li{
+  display: inline-block;
+  border: solid 5px;
   border-color: #ffffa8;
-  border-style: dashed;
-  border-collapse: collapse;
+  font-size: xx-large;
+  padding: 10px;
+  width: 330px;
 }
-.tableserch{
-  margin-left: 50px;
+.li :hover{
+  color: #120A38;
+  background-color: #FBFDF3;
 }
-.tablemenu{
-  text-align: center;
-  width: 50px;
-
+.menu{
+  width: 250px;
+  padding: 10px;
+  float: left;
 }
+.limenu{
+  display: inline-block;
+  border: solid 5px;
+  border-color: #ffffa8;
+  font-size: xx-large;
+  padding: 10px;
+  width: 300px;
+}
+.limenu :hover{
+  color: #120A38;
+  background-color: #FBFDF3;
+}
+a{
+  text-decoration: none;
+  color: #120A38;
+} 
 
 /*slideshow*/
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 700px;
     position: relative;
     margin: auto;
+    justify-items: center;
+
   }
   
   /* Next & previous buttons */
