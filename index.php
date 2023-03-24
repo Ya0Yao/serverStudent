@@ -6,9 +6,9 @@
 </head>
 <body class="index">
     <h1>Logowanie</h1>
-    <form action="walidacjaLogowania.php" method="get">
-        <input type="text" name="login" placeholder="Adres e-mail"><br>
-        <input type="text" name="password" placeholder="Hasło"><br>
+    <form action="main.php" method="get"> <!--zmiana lokalizacji wysłania formularza!!! -->
+        <input type="text" name="login" placeholder="Adres e-mail" required="required"><br>
+        <input type="text" name="password" placeholder="Hasło" required="required"><br>
         <input type="submit" value="Zaloguj" class="button">
     </form>
 </body>
