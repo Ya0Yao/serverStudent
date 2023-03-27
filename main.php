@@ -2,13 +2,14 @@
 <html lang="pl">
 <head>
     <title>Blog kulinarny</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="styl.css">
 </head>
 <body class="main">
     <?php
         include_once("header.php")
     ?>
-    <section name="główna">
+    <section name="główna" class="glowna">
 
         <nav class = "nav-gorny">
             <ul class="ul">
@@ -37,9 +38,6 @@
            <li class="nav-li-lewy"><a href="przekąski.php">Przekąski</a></li>
         </ul>
         </nav>
-
-
-       
 
         <div name="panel prawy duży">
             <?php
