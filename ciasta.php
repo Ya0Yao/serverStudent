@@ -2,13 +2,14 @@
 <html lang="pl">
 <head>
     <title>Blog kulinarny</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="styl.css">
 </head>
 <body class="main">
     <?php
         include_once("header.php")
     ?>
-    <section name="główna">
+    <section name="główna" class="glowna">
 
         <nav class = "nav-gorny">
             <ul class="ul">
@@ -38,13 +39,19 @@
         </ul>
         </nav>
 
-
-       
-
-        <div name="panel prawy duży">
-            <?php
-                include_once("slideshow.php")
-            ?>
+        <div class="slideshow-container ">
+            <p>Tu znajdziesz przepisy na najlepsze ciasta</p><br>
+            <ul>
+                <li><a href="https://www.kwestiasmaku.com/przepis/sernik-tradycyjny">Sernik</a><br>
+                <img src="sernik" alt="sernik">
+                </li>
+                <li><a href="https://domowe-wypieki.pl/przepisy/ciasta/812-prosta-szarlotka">Szarlotka</a><br>
+                <img src="szarlotka" alt="szarlotka">
+                </li>
+                <li><a href="https://www.kwestiasmaku.com/przepis/beza">Beza owocowa</a><br>
+                <img src="beza" alt="beza">
+                </li>
+            </ul>
         </div>
 
     </section>
@@ -54,10 +61,3 @@
     ?>
 </body>
 </html>
-
-<!-- <table>
-<tr><td><a href="main.php">Menu:</a></td></tr>
-<tr><td><iframe src="ciasta.php" height="200" width="300">Ciasta</iframe></td></tr>
-<tr><td><iframe src="obiady.php" height="200" width="300">Obiady</iframe></td></tr>
-<tr><td><iframe src="przekąski.php" height="200" width="300">Przekąski</iframe></td></tr>
-</table> -->
