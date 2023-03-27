@@ -52,8 +52,8 @@
     ?>
 </body>
 </html>
-<!-- 
-<table>
+
+<!-- <table>
 <tr><td><a href="main.php">Menu:</a></td></tr>
 <tr><td><iframe src="ciasta.php" height="200" width="300">Ciasta</iframe></td></tr>
 <tr><td><iframe src="obiady.php" height="200" width="300">Obiady</iframe></td></tr>
