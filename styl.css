@@ -1,3 +1,4 @@
+
 /*formularz logowania-gotowe */
 .index{
     background-color: #5132DC;
@@ -79,10 +80,15 @@
   color: #120A38;
   background-color: #FBFDF3;
 }
-a{
+.a-main{
   text-decoration: none;
   color: #ffffa8;
 } 
+.a-sub{
+  text-decoration: none;
+  color: #5132DC;
+  font-size: x-large;
+}
 a:hover{
   color: #120A38;
 }
@@ -97,7 +103,11 @@ a:hover{
   margin: auto;
   justify-items: center;
 }
-  
+
+.nonBinary{
+  height: 450px;
+  justify-items: center;
+}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -153,7 +163,13 @@ a:hover{
 }
 
 /* Podstrona ciasta */
-
+.header-ciasta{
+  color: #0057b2;
+  font-size: xx-large;
+}
+.ciasta-zdj{
+  width: 150px;
+}
 /* Podstrona obiady */
 
 /* Podstrona przekąski */
@@ -177,3 +193,4 @@ input[type=text] {
   width: 280px;
   height: 25px;
 }
+
