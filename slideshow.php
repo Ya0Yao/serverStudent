@@ -7,19 +7,19 @@
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <img src="1.jpg" style="width:100%">
+  <center><img src="1.jpg" class="nonBinary"></center>
 </div>
 
 <div class="mySlides fade">
-  <img src="2.jpg" style="width:100%">
+  <center><img src="2.jpg" class="nonBinary"></center>
 </div>
 
-<div class="mySlides fade">
-  <img src="3.jpg" style="width:100%">
+<div class="mySlides fade" >
+  <center><img src="3.jpg" class="nonBinary"></center>
 </div>
 
-<div class="mySlides fade">
-  <img src="4.jpg" style="width:100%">
+<div class="mySlides fade" >
+  <center><img src="4.jpg" class="nonBinary"></center>
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">❮</a>
