@@ -14,36 +14,36 @@
         <nav class = "nav-gorny">
             <ul class="ul">
                 <li class="li-menu">
-                    <a href="main.php" class="a-main">Menu:</a>
+                    <a href="main.php" class="a-main" id="lista_hover">Menu:</a>
                 </li>
-                <li class="li">
-                    <form action="index.php">
+                <li class="nav-li-gora">
+                    <form action="search.php">
                         <input type="text" placeholder = "Szukaj">
                         <input type="image" src="lupa.png" width="20px" hight="15px" alt="Submit">
                     </form> 
                 </li>
-                <li class="li">
-                    <a href="info.php" class="a-main">Informacje</a>
+                <li class="nav-li-gora">
+                    <a href="info.php" class="a-main" id="lista_hover">Informacje</a>
                 </li>
-                <li class="li">
-                    <a href="profile.php" class="a-main">Profil</a>
-                </li>
+                <li class="nav-li-gora">
+                    <a href="profile.php" class="a-main" id="lista_hover">Profil</a>
+                </li> 
             </ul>
         </nav>
         
         <nav class = "nav-lewy">
         <ul class="ul-lewy">
-           <li class="nav-li-lewy"><a href="ciasta.php" class="a-main">Ciasta</a></li>
-           <li class="nav-li-lewy"><a href="obiady.php" class="a-main">Obiady</a></li>
-           <li class="nav-li-lewy"><a href="przekąski.php" class="a-main">Przekąski</a></li>
+           <li class="nav-li-lewy"><a href="ciasta.php" class="a-main" id="lista_hover">Ciasta</a></li>
+           <li class="nav-li-lewy"><a href="obiady.php" class="a-main" id="lista_hover">Obiady</a></li>
+           <li class="nav-li-lewy"><a href="przekąski.php" class="a-main" id="lista_hover">Przekąski</a></li>
         </ul>
         </nav>
 
-        <div name="panel prawy duży">
+        <!-- <div name="panel prawy duży"> -->
             <?php
                 include_once("slideshow.php")
             ?>
-        </div>
+        <!-- </div> -->
 
     </section>
 
