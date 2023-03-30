@@ -42,16 +42,16 @@
     <div class="slideshow-container blur-list">
         <ul class="">
             <lh class="header-ciasta">
-                Tu znajdziesz przepisy na najlepsze ciasta
+                Tu znajdziesz przepisy na najlepsze obiady
             </lh>
-            <li><a href="https://www.kwestiasmaku.com/przepis/sernik-tradycyjny" class="a-sub">Sernik</a>
-                <img src="sernik.jpg" alt="sernik" class="ciasta-zdj">
+            <li><a href="https://ciastonapizze.pl/z-piwem/" class="a-sub">Pizza</a>
+                <img src="pizza.jpg" alt="Pizza" class="ciasta-zdj">
             </li>
-            <li><a href="https://domowe-wypieki.pl/przepisy/ciasta/812-prosta-szarlotka" class="a-sub">Szarlotka</a>
-                <img src="szarlotka.jpg" alt="szarlotka" class="ciasta-zdj">
+            <li><a href="https://www.kwestiasmaku.com/pasta/lasagne_bolognese/przepis.html" class="a-sub">Lasagne</a>
+                <img src="lasagne.jpg" alt="Lasagne" class="ciasta-zdj">
             </li>
-            <li><a href="https://www.kwestiasmaku.com/przepis/beza" class="a-sub">Beza owocowa</a>
-                <img src="beza.jpeg" alt="beza" class="ciasta-zdj">
+            <li><a href="https://kulinarneprzeboje.pl/rosol/" class="a-sub">Rosół</a>
+                <img src="rosol.jpg" alt="Rosół" class="ciasta-zdj">
             </li>
         </ul>
     </div>

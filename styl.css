@@ -1,10 +1,29 @@
 
+*{
+  margin: 0px;
+}
 /*formularz logowania-gotowe */
 .index{
-    background-color: #5132DC;
-    color: #BEDE4A;
-    text-align: center;
-    font-size: xx-large;
+  background-color: #5132DC;
+  color: #BEDE4A;
+  text-align: center;
+  font-size: xx-large;
+}
+.index-admin{
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  float: left;
+}
+.index-user{
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+.index-admin .index-user:hover{
+  border: #BEDE4A;
+  border-style: groove;
+
 }
 .button{
     background-color: #FBFDF3;
@@ -18,28 +37,38 @@
 /*main*/
 .main{
   background-color: #f4f9e2;
+  background-image: url(tlo.png);
+  background-size: 10%;
+  background-position: left top;
+  background-repeat: repeat;
 }
 .glowna{
   width: 100%;
-  height: 586px;
+  height: 650px;
 }
 .nav-gorny{
   background-color: #5132DC;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .ul{
   list-style-type: none;
   display: inline-block;
 }
-.li{
+.nav-li-gora{
   display: inline-block;
   border: solid 5px;
   border-color: #ffffa8;
   font-size: xx-large;
   padding: 10px;
+  margin-left: 7px;
   width: 330px;
 }
-.li:hover{
+.nav-li-gora:hover > #lista_hover{
   color: #120A38;
+  background-color: #FBFDF3;
+}
+.nav-li-gora:hover{
   background-color: #FBFDF3;
 }
 .li-menu{
@@ -48,24 +77,25 @@
   border: solid 5px;
   border-color: #ffffa8;
   font-size: xx-large;
-  margin-right: 35px;
+  margin-right: 40px;
   padding: 10px;
   width: 180px;
 }
-.li-menu:hover{
+.li-menu:hover > #lista_hover{
   color: #120A38;
+  background-color: #FBFDF3;
+}
+.li-menu:hover {
   background-color: #FBFDF3;
 }
 .nav-lewy{
   background-color: #5132DC;
   width: 300px;
-  min-height: 450px;
-  max-height: 550px;
+  height: 560px;
   float: left;
 }
 .ul-lewy{
   border-collapse: collapse;
-  margin-top: -10px;
 }
 .nav-li-lewy{
   list-style-type: none;
@@ -74,10 +104,13 @@
   font-size: xx-large;
   padding: 10px;
   width: 180px;
-  margin-bottom: 6px;
+  margin-bottom: 15px;
+}
+.nav-li-lewy:hover > #lista_hover{
+  color: #120A38;
+  background-color: #FBFDF3;
 }
 .nav-li-lewy:hover{
-  color: #120A38;
   background-color: #FBFDF3;
 }
 .a-main{
@@ -89,9 +122,10 @@
   color: #5132DC;
   font-size: x-large;
 }
-a:hover{
+/* a:hover{
   color: #120A38;
-}
+  width: max-content;
+} */
 
 /*slideshow*/
 
@@ -101,6 +135,7 @@ a:hover{
   max-height: 450px;
   position: relative;
   margin: auto;
+  margin-top: 50px;
   justify-items: center;
 }
 
@@ -163,21 +198,36 @@ a:hover{
 }
 
 /* Podstrona ciasta */
+/* Podstrona obiady */
+/* Podstrona przekąski */
+
 .header-ciasta{
   color: #0057b2;
   font-size: xx-large;
 }
 .ciasta-zdj{
   width: 150px;
+  border: 1px;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
 }
-/* Podstrona obiady */
-
-/* Podstrona przekąski */
-
+.blur-list{
+  background: rgba(255, 255, 255, 0.308);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  width: 800px;
+  height: 500px;
+  font-size: xx-large;
+  border: 1px solid rgba(155,0,173,0.15);
+  border-radius: 7% 7% 7% 7% / 14% 14% 14% 14%;
+}
 
 /*Footer*/
 .hide {
   display: none;
+}
+.footer{
+  background-color: #5132DC;
+  height: 55px;
 }
 .footer:hover + .hide{
   font-family: mixta pro blod;

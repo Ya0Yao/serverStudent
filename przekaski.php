@@ -42,18 +42,19 @@
     <div class="slideshow-container blur-list">
         <ul class="">
             <lh class="header-ciasta">
-                Tu znajdziesz przepisy na najlepsze ciasta
+                Tu znajdziesz przepisy na najlepsze przekąski
             </lh>
-            <li><a href="https://www.kwestiasmaku.com/przepis/sernik-tradycyjny" class="a-sub">Sernik</a>
-                <img src="sernik.jpg" alt="sernik" class="ciasta-zdj">
+            <li><a href="https://aniagotuje.pl/przepis/krazki-cebulowe" class="a-sub">Krążki cebulowe</a>
+                <img src="cebulowe.jpg" alt="krążki cebulowe" class="ciasta-zdj">
             </li>
-            <li><a href="https://domowe-wypieki.pl/przepisy/ciasta/812-prosta-szarlotka" class="a-sub">Szarlotka</a>
-                <img src="szarlotka.jpg" alt="szarlotka" class="ciasta-zdj">
+            <li><a href="https://beszamel.se.pl/przepisy/przystawki-i-przekaski/domowe-chipsy-ziemniaczane-jak-zrobic-chipsy-w-piekarniku-re-JwLT-fEsS-74pK.html" class="a-sub">Chipsy</a>
+                <img src="chipsy.jpg" alt="chipsy" class="ciasta-zdj">
             </li>
-            <li><a href="https://www.kwestiasmaku.com/przepis/beza" class="a-sub">Beza owocowa</a>
-                <img src="beza.jpeg" alt="beza" class="ciasta-zdj">
+            <li><a href="https://www.kwestiasmaku.com/przepis/churros" class="a-sub">Churros</a>
+                <img src="churros.jpg" alt="churros" class="ciasta-zdj">
             </li>
         </ul>
+            </ul>
     </div>
 
     </section>
