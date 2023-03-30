@@ -14,7 +14,7 @@
 <nav class = "nav-gorny">
     <ul class="ul">
         <li class="li-menu">
-            <a href="main_user.php" class="a-main" id="lista_hover">Menu:</a>
+            <a href="main_admin.php" class="a-main" id="lista_hover">Menu:</a>
         </li>
         <li class="nav-li-gora">
             <form action="search.php">
@@ -23,7 +23,7 @@
             </form> 
         </li>
         <li class="nav-li-gora">
-            <a href="info.php" class="a-main" id="lista_hover">Informacje</a>
+            <a href="edit.php" class="a-main" id="lista_hover">Edytor strony</a>
         </li>
         <li class="nav-li-gora">
             <a href="profile.php" class="a-main" id="lista_hover">Profil</a>
@@ -39,27 +39,15 @@
 </ul>
 </nav>
 
-    <div class="slideshow-container blur-list">
-        <ul class="">
-            <lh class="header-ciasta">
-                Tu znajdziesz przepisy na najlepsze ciasta
-            </lh>
-            <li><a href="https://www.kwestiasmaku.com/przepis/sernik-tradycyjny" class="a-sub">Sernik</a>
-                <img src="sernik.jpg" alt="sernik" class="ciasta-zdj">
-            </li>
-            <li><a href="https://domowe-wypieki.pl/przepisy/ciasta/812-prosta-szarlotka" class="a-sub">Szarlotka</a>
-                <img src="szarlotka.jpg" alt="szarlotka" class="ciasta-zdj">
-            </li>
-            <li><a href="https://www.kwestiasmaku.com/przepis/beza" class="a-sub">Beza owocowa</a>
-                <img src="beza.jpeg" alt="beza" class="ciasta-zdj">
-            </li>
-        </ul>
-    </div>
+    <?php
+        include_once("slideshow.php")
+    ?>
 
     </section>
 
     <?php
         include_once("footer.php")
     ?>
+
 </body>
 </html>
