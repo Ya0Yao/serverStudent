@@ -2,7 +2,7 @@
     //pobranie wartośći z form//
     $slowo_klucz = isset($_REQUEST['slowoKlucz'])? $_REQUEST['slowoKlucz']: "";
     //ponranie wartośći z bazy danych//
-    include_once('config.php')
+    include_once('config.php');
     try {
         $conn = mysqli_connect($servername, $username, $passwordDB, $database);
         echo "Połączenie udane";
