@@ -31,5 +31,3 @@ if($conn){
     ldap_close($ldapconn);
 }
 ?>
-}
-?>

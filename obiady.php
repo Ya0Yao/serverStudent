@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styl.css">
 </head>
-<body class="main">
+<body class="obiady">
     <?php
         include_once("header.php")
     ?>

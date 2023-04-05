@@ -21,6 +21,7 @@
   margin: 20px;
 }
 .index-admin .index-user:hover{
+  border: 10px;
   border: #BEDE4A;
   border-style: groove;
 
@@ -42,6 +43,27 @@
   background-position: left top;
   background-repeat: repeat;
 }
+.ciasta{
+  background-color: #f4f9e2;
+  background-image: url(ciasta.png);
+  background-size: 20%;
+  background-position: left top;
+  background-repeat: repeat;
+}
+.obiady{
+  background-color: #f4f9e2;
+  background-image: url(obiady.png);
+  background-size: 30%;
+  background-position: left top;
+  background-repeat: repeat; 
+}
+.przekaski{
+  background-color: #f4f9e2;
+  background-image: url(przekaski.png);
+  background-size: 20%;
+  background-position: left top;
+  background-repeat: repeat;
+}
 .glowna{
   width: 100%;
   height: 650px;
@@ -50,6 +72,7 @@
   background-color: #5132DC;
   padding-top: 15px;
   padding-bottom: 15px;
+  border: 5px solid red;
 }
 .ul{
   list-style-type: none;
@@ -63,10 +86,15 @@
   padding: 10px;
   margin-left: 7px;
   width: 330px;
+  transition: ease-in;
+  transition: font-size 300ms;
 }
 .nav-li-gora:hover > #lista_hover{
   color: #120A38;
   background-color: #FBFDF3;
+  font-size: 40px;
+  transition: ease-in;
+  transition: font-size 300ms;
 }
 .nav-li-gora:hover{
   background-color: #FBFDF3;
@@ -80,10 +108,15 @@
   margin-right: 40px;
   padding: 10px;
   width: 180px;
+  transition: ease-in;
+  transition: font-size 300ms;
 }
 .li-menu:hover > #lista_hover{
   color: #120A38;
   background-color: #FBFDF3;
+  font-size: 40px;
+  transition: ease-in;
+  transition: font-size 300ms;
 }
 .li-menu:hover {
   background-color: #FBFDF3;
@@ -91,8 +124,9 @@
 .nav-lewy{
   background-color: #5132DC;
   width: 300px;
-  height: 560px;
+  height: 537px;
   float: left;
+  border: 5px solid red;
 }
 .ul-lewy{
   border-collapse: collapse;
@@ -105,10 +139,15 @@
   padding: 10px;
   width: 180px;
   margin-bottom: 15px;
+  transition: ease-in;
+  transition: font-size 300ms;
 }
 .nav-li-lewy:hover > #lista_hover{
   color: #120A38;
   background-color: #FBFDF3;
+  font-size: 40px;
+  transition: ease-in;
+  transition: font-size 300ms;
 }
 .nav-li-lewy:hover{
   background-color: #FBFDF3;
@@ -117,16 +156,6 @@
   text-decoration: none;
   color: #ffffa8;
 } 
-.a-sub{
-  text-decoration: none;
-  color: #5132DC;
-  font-size: x-large;
-}
-/* a:hover{
-  color: #120A38;
-  width: max-content;
-} */
-
 /*slideshow*/
 
 /* Slideshow container */
@@ -142,6 +171,8 @@
 .nonBinary{
   height: 450px;
   justify-items: center;
+  border: 1px solid rgba(155,0,173,0.15);
+  border-radius: 7% 7% 7% 7% / 14% 14% 14% 14%;
 }
 /* Next & previous buttons */
 .prev, .next {
@@ -189,7 +220,7 @@
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1.1s;
 }
   
 @keyframes fade {
@@ -202,23 +233,32 @@
 /* Podstrona przekąski */
 
 .header-ciasta{
-  color: #0057b2;
+  color: #ffffff;
   font-size: xx-large;
+  padding-top: 20px;
+}
+.a-sub{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: x-large;
+  list-style-type: circle;
 }
 .ciasta-zdj{
-  width: 150px;
+  width: 120px;
   border: 1px;
   border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
 }
 .blur-list{
-  background: rgba(255, 255, 255, 0.308);
+  background: rgba(35, 35, 35, 0.652);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   width: 800px;
-  height: 500px;
+  height: 450px;
   font-size: xx-large;
-  border: 1px solid rgba(155,0,173,0.15);
+  border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 7% 7% 7% 7% / 14% 14% 14% 14%;
+  animation-name: fade;
+  animation-duration: 1.1s;
 }
 
 /*Footer*/
@@ -228,6 +268,8 @@
 .footer{
   background-color: #5132DC;
   height: 55px;
+  border: 5px solid red;
+  align-content: center;
 }
 .footer:hover + .hide{
   font-family: mixta pro blod;
